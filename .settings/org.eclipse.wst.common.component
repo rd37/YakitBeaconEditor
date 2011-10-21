@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="YakitBeaconEditor">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="KDTimeSegment.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/KDTimeSegment/KDTimeSegment">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ron Desmarais/Desktop/apache/json/json.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="YakitBeaconEditor"/>
+        <property name="java-output-path" value="/YakitBeaconEditor/build/classes"/>
+    </wb-module>
+</project-modules>
