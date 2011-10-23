@@ -33,7 +33,7 @@ public class BeaconEditor extends HttpServlet {
 		 */
 		JSONInvocationEngine jsonEngine = (JSONInvocationEngine) this.getServletContext().getAttribute("jsonengine");
 		if(jsonEngine==null){
-			jsonEngine = JSONInvocationEngine.getInstance();
+			jsonEngine = new JSONInvocationEngine();
 			this.getServletContext().setAttribute("jsonengine", jsonEngine);
 		}
 		
